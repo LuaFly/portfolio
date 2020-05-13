@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/fadein.css" />
+    <meta http-equiv="refresh" content="5 ; URL='portfolio1.html'"/>
+    
+    <title>Luana's Project</title>
+</head>
+<body class="fadeIn">
+
+    <p class="line anim-typewriter"> Portfólio </p>  
+    <p class="paragrafo"> Aqui você pode ver um portifólio e criar o seu usando o nosso código como base.</p>
+    <div class="imagem">
+        <img class="teste" src="images/1.jpg" >
+        <img class="teste" src="images/2.jpg" >
+        <img class="teste" src="images/3.jpg">
+    </div>
+
+    <div class="container">
+        <div class="face">
+            <div class="eyes">
+                <span class="eye"></span>
+                <span class="eye"></span>
+            </div>
+        </div>
+        <h2> Parabens Você achou o emoji. #StayHome</h2>
+    </div>
+
+    <script type="text/javascript">
+        document.querySelector("body").addEventListener('mousemove', eyeball);
+        function eyeball(){
+            var eye =  document.querySelectorAll(".eye");
+            eye.forEach(function(eye){
+                let x = (eye.getBoundingClientRect().left)+ (eye.clientWidth/2)
+                let y = (eye.getBoundingClientRect().top)+ (eye.clientHeight/2)
+                let radian = Math.atan2(event.pageX - x,event.pageY - y);
+                let rot = (radian * (180/Math.PI) * -1) + 270;
+                eye.style.transform = "rotate(" + rot + "deg)";
+            })
+        }
+    </script>
+</body>
+</html>
