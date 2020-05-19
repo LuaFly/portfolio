@@ -65,14 +65,6 @@
     letter-spacing: 1px;
 }
 /*menu*/
-.banner header .toggle {
-    position: relative;
-    width: 36px;
-    height: 28px;
-    background: url(images/toggle.png);
-    background-size: cover;
-    cursor: pointer;
-}
 
 .about{
     position: relative;
@@ -187,10 +179,40 @@
     opacity: 1;
     transition-delay: 0.5s;
 }
+.services {
+    background: #12222d;
+    padding: 100px;
+    text-align: center;
+}
 
+.services .conta{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
 
+.services .conta .serviceBx {
+    position: relative;
+    background: #fff;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.services .conta .serviceBx img{
+   max-width: 100px; 
+}
 
+.services .conta .serviceBx h2 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
 
 
 

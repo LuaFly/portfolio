@@ -332,3 +332,38 @@
     opacity: 1;
     transition-delay: 0.5s;
 }
+
+.services {
+    background: #250123;
+    padding: 100px;
+    text-align: center;
+}
+
+.services .conta{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.services .conta .serviceBx {
+    position: relative;
+    background: #3AEAED;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .conta .serviceBx img{
+   max-width: 100px; 
+}
+
+.services .conta .serviceBx h2 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
