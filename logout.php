@@ -1,0 +1,5 @@
+<?php
+session_start();
+session_destroy();
+header('Location: https://localhost/portfolio/portfolio1.php');
+?>

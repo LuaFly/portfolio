@@ -1,0 +1,22 @@
+{
+    "name": "luafly/portfolio",
+    "description": "composer",
+    "minimum-stability": "stable",
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/",
+            "Classe\\": "classes/"
+        },
+        
+        "files": [
+            "source/config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "6.0.",
+        "league/oauth2-facebook": "^2.0."
+    }
+}
