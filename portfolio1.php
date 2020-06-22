@@ -51,7 +51,7 @@ ob_end_flush();
     <img src="images/8.jpg">
     <div class="content">
         <h2> Portfolio</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem praesentium ratione repellendus alias atque temporibus maiores consectetur voluptatum neque deleniti, adipisci, aliquid qui doloremque sed voluptatibus cupiditate animi quod quam! </p>
+        <p>Bem vindo ao meu portfólio, aqui você encontrará alguns projetos já criados por mim com uma descrição e o link para você acessar o projeto =). Se interessar e quiser um orçamento é só entrar em contato. </p>
     </div>
     </div>
     <h2 class="some"> Some products </h2>

@@ -261,7 +261,6 @@
 }
 
 .container{
-    width: 1000px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -373,3 +372,45 @@
     font-size: 20px;
     letter-spacing: 1px;
 }
+
+@media (max-width: 991px)
+{
+    .banner {
+        padding: 50px;
+    }
+    .banner header
+    {
+        padding: 20px 50px;
+    }
+    .banner .content h2{
+        font-size: 36px;
+    }
+    .banner .content p {
+        font-size: 18px;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about .contentBx,
+    .about .imgBx{
+        width: 100%;
+        padding: 50px;
+        text-align: center;
+        min-height: 400px;
+    }
+    .container
+    {
+        padding: 50px;
+    }
+    .container .card img{
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+    .box{
+        width: 100%;
+    }
+  }
