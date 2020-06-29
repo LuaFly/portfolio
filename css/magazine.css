@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Anonymous Pro', monospace;
 }
+body {
+    background: #000 !important;
+  }
 
 .menu-navigation-dark {
     font-family: Arial, Helvetica, sans-serif;
@@ -211,6 +214,10 @@
     flex-wrap: wrap; 
     justify-content: space-around;
 }
+.containerfooter{
+    overflow-x:hidden;
+
+}
 .card {
     position: relative;
     margin: 20px 0;
@@ -414,3 +421,4 @@
         width: 100%;
     }
   }
+
